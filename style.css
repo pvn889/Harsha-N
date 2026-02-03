@@ -1,1 +1,48 @@
+body {
+  background: linear-gradient(135deg, #ffd6e8, #ffe6f0);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  margin: 20px 0 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 12px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.yes {
+  background: #ff4d6d;
+  color: white;
+}
+
+.no {
+  background: #ddd;
+}
 
